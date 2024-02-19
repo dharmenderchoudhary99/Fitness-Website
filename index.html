@@ -21,6 +21,14 @@
         left: 34px;
         top: 20px;
     }
+    .left img{
+        width: 136px;
+        filter: invert(10%);
+       
+    }
+    .left div{
+        text-align: center;
+    }
 
     .mid{
         display: block;
@@ -42,24 +50,31 @@
 
     .navbar li{
         display: inline-block;
+        font-size: 20px;
         
     }
     .navbar li a{
         color: white;
         text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover,.navbar l1 a.active{
+        text-decoration: underline;
+        color: grey;
     }
 </style>
 <body>
     <header class="header">
         <!-- left box for logo  -->
         <div class="left">
-              Left
+              <img src="Img/dumbells.jpg" alt="">
+              <div>Fitness</div>
         </div>
         
         <!-- mid for navbar  -->
         <div class="mid">
             <ul class="navbar">
-                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Fitness Calculator</a></li>
                 <li><a href="#">Contact Us</a></li>
