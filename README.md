@@ -1,9 +1,11 @@
 
-# Fitness For You - Gym Website
+# ![Website Output](https://github.com/dharmenderchoudhary99/Fitness-Website/assets/120792811/a9e88506-e15d-400b-9743-ce7c00ca7332)
+Fitness For You - Gym Website
 
 ## Description
 This repository contains the source code for a fitness center website, named "Fitness For You." It is a simple webpage designed using HTML and CSS, featuring a navigation bar, logo, buttons, and a membership form.
 
+![Uploading Website Output.png…]()
 
 ## Technologies Used
 - HTML
